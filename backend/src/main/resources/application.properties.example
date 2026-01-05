@@ -1,0 +1,19 @@
+server.port=8080
+spring.application.name=pdf-chatbot
+
+# LLM Configuration
+# Set your OpenAI API key here or as environment variable LLM_API_KEY
+# Get your API key from: https://platform.openai.com/api-keys
+llm.api.key=your-openai-api-key-here
+
+# OpenAI API URL (default: https://api.openai.com/v1/chat/completions)
+llm.api.url=https://api.openai.com/v1/chat/completions
+
+# Model to use (gpt-3.5-turbo, gpt-4, gpt-4-turbo, etc.)
+llm.model=gpt-3.5-turbo
+
+# Enable/disable LLM (set to false to use fallback text extraction)
+llm.enabled=true
+
+
+
